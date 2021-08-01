@@ -1,18 +1,23 @@
 package com.spring.aplication.teste.java11spring252.buscaApi;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin
-@RequestMapping("/v1/cpf_4_dev")
+@RequestMapping("/v1/cpf_dev")
 public class CpfFourDevController {
 
-    @GetMapping
-    public ResponseEntity test() {
-        return ResponseEntity.ok("abc");
+
+    private final FourDev fourDev;
+
+    @Autowired
+    public CpfFourDevController(FourDev fourDev) {
+        this.fourDev = fourDev;
+    }
+
+    @PostMapping
+    public ResponseEntity test(@RequestParam boolean isPontuacao) {
+        return ResponseEntity.ok(fourDev.gerarCpf(isPontuacao));
     }
 }
