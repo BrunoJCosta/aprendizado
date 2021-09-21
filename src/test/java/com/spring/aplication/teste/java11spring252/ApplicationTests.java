@@ -1,5 +1,6 @@
 package com.spring.aplication.teste.java11spring252;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,6 +9,7 @@ class ApplicationTests {
 
 	@Test
 	void contextLoads() {
+        Assert.assertTrue(true);
 	}
 
 }
