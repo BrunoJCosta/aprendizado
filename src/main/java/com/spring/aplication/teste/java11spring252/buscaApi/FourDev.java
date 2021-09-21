@@ -27,4 +27,15 @@ public class FourDev {
         return gerarCpf.block();
     }
 
+    public String validaCpf(String cpf) {
+        var gerarCpf = webClientForDev
+                .post().body(BodyInserters
+                        .fromFormData("acao","validar_cpf")
+                        .with("txt_cpf",cpf))
+                .retrieve()
+                .bodyToMono(String.class);
+
+        return gerarCpf.block();
+    }
+
 }

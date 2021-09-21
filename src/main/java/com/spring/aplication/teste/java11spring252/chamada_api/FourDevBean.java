@@ -1,4 +1,4 @@
-package com.spring.aplication.teste.java11spring252;
+package com.spring.aplication.teste.java11spring252.chamada_api;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
