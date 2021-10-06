@@ -8,16 +8,16 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Service
 public class FourDev {
 
-    private final WebClient webClientForDev;
+    private final WebClient webClientFourDev;
 
     @Autowired
-    public FourDev(WebClient webClientForDev) {
-        this.webClientForDev = webClientForDev;
+    public FourDev(WebClient webClientFourDev) {
+        this.webClientFourDev = webClientFourDev;
     }
 
     public String gerarCpf(boolean isPontuacao) {
         var pontuacao = isPontuacao ? "S" : "N";
-        var gerarCpf = webClientForDev
+        var gerarCpf = webClientFourDev
                 .post().body(BodyInserters
                         .fromFormData("acao","gerar_cpf")
                         .with("pontuacao",pontuacao))
@@ -28,7 +28,7 @@ public class FourDev {
     }
 
     public String validaCpf(String cpf) {
-        var gerarCpf = webClientForDev
+        var gerarCpf = webClientFourDev
                 .post().body(BodyInserters
                         .fromFormData("acao","validar_cpf")
                         .with("txt_cpf",cpf))

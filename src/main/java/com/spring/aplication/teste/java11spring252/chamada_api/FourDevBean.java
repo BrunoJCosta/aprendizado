@@ -10,9 +10,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class FourDevBean {
 
     @Bean
-    public WebClient webClientForDev(WebClient.Builder builder) {
-        return builder
-                .baseUrl("https://www.4devs.com.br/ferramentas_online.php")
+    public WebClient webClientFourDev(WebClient.Builder builder) {
+        return builder.baseUrl("https://www.4devs.com.br/ferramentas_online.php")
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
                 .build();
     }
