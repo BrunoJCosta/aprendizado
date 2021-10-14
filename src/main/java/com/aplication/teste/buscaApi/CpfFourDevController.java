@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/v1/cpf_dev")
 public class CpfFourDevController {
 
-
     private final FourDev fourDev;
 
     @Autowired
