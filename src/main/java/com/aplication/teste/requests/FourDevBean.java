@@ -1,4 +1,4 @@
-package com.spring.aplication.teste.java11spring252.requests;
+package com.aplication.teste.requests;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

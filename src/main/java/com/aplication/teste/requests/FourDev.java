@@ -1,4 +1,4 @@
-package com.spring.aplication.teste.java11spring252.buscaApi;
+package com.aplication.teste.requests;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.spring.aplication.teste.java11spring252.buscaApi;
+package com.aplication.teste.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
