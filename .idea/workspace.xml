@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0231250a-239c-44b6-a1ec-b22da4b956d5" name="Changes" comment="chamada api de validação de cpf">
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/remote-targets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java11spring2.5.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aplication/teste/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aplication/teste/controller/CpfFourDevController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aplication/teste/requests/FourDev.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aplication/teste/requests/FourDevBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/aplication/teste/java11spring252/ApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +47,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1634481669" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1634481455" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="Master" />
                     <option name="lastUsedInstant" value="1634479115" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1634478822" />
                   </RecentBranch>
                 </list>
               </option>
@@ -87,20 +80,6 @@
       <map>
         <entry key="JPA Structure" value="false" />
       </map>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Bruno\.m2\repository" />
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="userSettingsFile" value="C:\Users\Bruno\.m2\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="11" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1vuyHvNGRPO05Pu4sP9UnEwbjzk" />
@@ -127,7 +106,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
   <component name="ReactorSettings">
     <option name="debugImpossibleNotificationsEnabled" value="false" />
@@ -155,17 +134,6 @@
       <option name="MAIN_CLASS_NAME" value="com.spring.aplication.teste.java11spring252.ApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,6 +175,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Bruno\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0231250a-239c-44b6-a1ec-b22da4b956d5" name="Changes" comment="" />
@@ -252,7 +223,9 @@
       <workItem from="1634252735014" duration="4241000" />
       <workItem from="1634258212184" duration="514000" />
       <workItem from="1634478491412" duration="1079000" />
-      <workItem from="1634479596650" duration="1227000" />
+      <workItem from="1634479596650" duration="1590000" />
+      <workItem from="1634684387331" duration="8000" />
+      <workItem from="1635526678756" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="colocando Junit no projeto">
       <created>1632184699332</created>
