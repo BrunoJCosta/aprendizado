@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0231250a-239c-44b6-a1ec-b22da4b956d5" name="Changes" comment="subindo arquivo">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,9 +172,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -237,7 +237,8 @@
       <workItem from="1634479596650" duration="1590000" />
       <workItem from="1634684387331" duration="8000" />
       <workItem from="1635526678756" duration="46000" />
-      <workItem from="1635627883936" duration="2372000" />
+      <workItem from="1635627883936" duration="2929000" />
+      <workItem from="1636288905612" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="colocando Junit no projeto">
       <created>1632184699332</created>
