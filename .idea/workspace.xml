@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0231250a-239c-44b6-a1ec-b22da4b956d5" name="Changes" comment="subindo arquivo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0231250a-239c-44b6-a1ec-b22da4b956d5" name="Changes" comment="subindo arquivo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +259,7 @@
       <workItem from="1640018439521" duration="12000" />
       <workItem from="1640197918901" duration="3645000" />
       <workItem from="1640202597320" duration="696000" />
-      <workItem from="1640720916261" duration="2168000" />
+      <workItem from="1640720916261" duration="2471000" />
     </task>
     <task id="LOCAL-00001" summary="colocando Junit no projeto">
       <created>1632184699332</created>
