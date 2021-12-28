@@ -26,4 +26,5 @@ public class CpfFourDevController {
         return ResponseEntity.ok(fourDev.validaCpf(cpf));
     }
 
+
 }
