@@ -7,6 +7,9 @@ TcpClient tcpClient = TcpClient.create().secure(t -> t.sslContext(sslContext) );
 HttpClient httpClient = HttpClient.from(tcpClient);
 ```
 
+### Projeto
+roda na porta 5000
+
 ### Banco
 Subindo um banco via terminal pelo docker e salvando o endereço no projeto.
 
@@ -24,3 +27,9 @@ os seguintes comandos
 `psql -U postgres`
 
 A parti de agora pode fazer os sql no terminal.
+
+### gerador Documentos
+Podendo gerar ou validar o cpf.
+
+E como o endereço da requisição já está pronta pode criar para 
+validar ou gerar documentos que a propria disponibiliza.

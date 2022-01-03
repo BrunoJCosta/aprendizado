@@ -6,13 +6,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/v1/cpf_dev")
-public class CpfFourDevController {
+@RequestMapping("/v1/find_documentos")
+public class GeradorDocumentos {
 
     private final FourDev fourDev;
 
     @Autowired
-    public CpfFourDevController(FourDev fourDev) {
+    public GeradorDocumentos(FourDev fourDev) {
         this.fourDev = fourDev;
     }
 

@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44aa149-4476-4527-81d4-aa5e26248b8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java11spring2.5.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java11spring2.5.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640907726421</updated>
       <workItem from="1640907732611" duration="3020000" />
-      <workItem from="1641169095537" duration="2646000" />
+      <workItem from="1641169095537" duration="2962000" />
     </task>
     <servers />
   </component>
