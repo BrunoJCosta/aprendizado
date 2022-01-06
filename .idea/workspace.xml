@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44aa149-4476-4527-81d4-aa5e26248b8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Escolaridade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Materia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +38,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -55,6 +64,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -94,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640907726421</updated>
       <workItem from="1640907732611" duration="3020000" />
-      <workItem from="1641169095537" duration="2962000" />
+      <workItem from="1641169095537" duration="3684000" />
+      <workItem from="1641427821436" duration="3345000" />
     </task>
     <servers />
   </component>
