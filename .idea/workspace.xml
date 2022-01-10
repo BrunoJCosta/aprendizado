@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44aa149-4476-4527-81d4-aa5e26248b8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Escolaridade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Materia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/configuracao/ValidationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/controller/ProfessorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/ProfessorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/ProfessorForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/ProfessorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/ProfessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/ProfessorServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/Doutorado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/Formacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/Graduado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/Mestrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/PosDoutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/PosGraduado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/exception/AlreadyHaveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/exception/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Escolaridade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/formacao/Escolaridade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/Materia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/escola/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aplication/teste/domain/universidade/Professor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +89,11 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aplication.teste.domain.universidade" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="java11spring2.5.2" />
@@ -105,7 +124,9 @@
       <updated>1640907726421</updated>
       <workItem from="1640907732611" duration="3020000" />
       <workItem from="1641169095537" duration="3684000" />
-      <workItem from="1641427821436" duration="3345000" />
+      <workItem from="1641427821436" duration="3609000" />
+      <workItem from="1641741512369" duration="699000" />
+      <workItem from="1641773625586" duration="3657000" />
     </task>
     <servers />
   </component>
