@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.escola;
+package com.aplication.teste.domain.universidade;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,7 @@ import javax.persistence.*;
         allocationSize = 1,
         schema = "postgres"
 )
-public class Materia {
+class Materia {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "materia_gen")

@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.escola;
+package com.aplication.teste.domain.universidade;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
         allocationSize = 1,
         schema = "postgres"
 )
-public class Aluno {
+class Aluno {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "aluno_gen")

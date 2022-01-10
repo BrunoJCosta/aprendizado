@@ -1,5 +1,6 @@
-package com.aplication.teste.domain.escola;
+package com.aplication.teste.domain.universidade;
 
+import com.aplication.teste.domain.universidade.formacao.Escolaridade;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,7 +15,7 @@ import java.math.BigDecimal;
         allocationSize = 1,
         schema = "prostgres"
 )
-public class Professor {
+class Professor {
 
     @Id
     @Column(name = "id")
