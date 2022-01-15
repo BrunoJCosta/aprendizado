@@ -1,4 +1,4 @@
-package com.aplication.teste.requests;
+package com.aplication.aprendizado.requests;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

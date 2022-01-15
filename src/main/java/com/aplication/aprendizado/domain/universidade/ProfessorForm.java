@@ -1,6 +1,6 @@
-package com.aplication.teste.domain.universidade;
+package com.aplication.aprendizado.domain.universidade;
 
-import com.aplication.teste.domain.universidade.formacao.Formacao;
+import com.aplication.aprendizado.domain.universidade.formacao.Formacao;
 import lombok.Data;
 
 import java.math.BigDecimal;

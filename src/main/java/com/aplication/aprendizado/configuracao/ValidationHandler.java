@@ -1,4 +1,4 @@
-package com.aplication.teste.configuracao;
+package com.aplication.aprendizado.configuracao;
 
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;

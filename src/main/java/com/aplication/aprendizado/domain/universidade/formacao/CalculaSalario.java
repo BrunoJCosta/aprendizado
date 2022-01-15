@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.universidade.formacao;
+package com.aplication.aprendizado.domain.universidade.formacao;
 
 import java.math.BigDecimal;
 

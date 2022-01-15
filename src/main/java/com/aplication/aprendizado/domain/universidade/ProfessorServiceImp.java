@@ -1,6 +1,6 @@
-package com.aplication.teste.domain.universidade;
+package com.aplication.aprendizado.domain.universidade;
 
-import com.aplication.teste.exception.AlreadyHaveException;
+import com.aplication.aprendizado.exception.AlreadyHaveException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

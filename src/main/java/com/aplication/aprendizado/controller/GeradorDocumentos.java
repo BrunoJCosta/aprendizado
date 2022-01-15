@@ -1,6 +1,6 @@
-package com.aplication.teste.controller;
+package com.aplication.aprendizado.controller;
 
-import com.aplication.teste.requests.FourDev;
+import com.aplication.aprendizado.requests.FourDev;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

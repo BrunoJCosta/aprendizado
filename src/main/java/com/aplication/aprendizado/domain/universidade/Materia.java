@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.universidade;
+package com.aplication.aprendizado.domain.universidade;
 
 import lombok.Getter;
 import lombok.Setter;

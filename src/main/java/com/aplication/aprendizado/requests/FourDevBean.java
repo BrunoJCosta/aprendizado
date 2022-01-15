@@ -1,4 +1,4 @@
-package com.aplication.teste.requests;
+package com.aplication.aprendizado.requests;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

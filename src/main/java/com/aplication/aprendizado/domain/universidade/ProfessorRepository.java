@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.universidade;
+package com.aplication.aprendizado.domain.universidade;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

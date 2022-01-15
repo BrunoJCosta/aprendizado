@@ -1,8 +1,8 @@
-package com.aplication.teste.controller;
+package com.aplication.aprendizado.controller;
 
-import com.aplication.teste.domain.universidade.ProfessorForm;
-import com.aplication.teste.domain.universidade.ProfessorService;
-import com.aplication.teste.exception.AlreadyHaveException;
+import com.aplication.aprendizado.domain.universidade.ProfessorForm;
+import com.aplication.aprendizado.domain.universidade.ProfessorService;
+import com.aplication.aprendizado.exception.AlreadyHaveException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

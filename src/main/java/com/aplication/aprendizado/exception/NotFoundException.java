@@ -1,4 +1,4 @@
-package com.aplication.teste.exception;
+package com.aplication.aprendizado.exception;
 
 public class NotFoundException extends Exception {
 
