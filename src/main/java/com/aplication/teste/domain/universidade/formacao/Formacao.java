@@ -1,9 +1,19 @@
 package com.aplication.teste.domain.universidade.formacao;
 
-import java.math.BigDecimal;
+import lombok.Getter;
 
-public interface Formacao {
+public enum Formacao {
 
-    BigDecimal calcular(BigDecimal salario);
+    GRADUADO("Graduado"),
+    POSGRADUADO("Pós-Graduado"),
+    MESTRADO("Mestrado"),
+    DOUTORADO("Doutorado"),
+    POSDOUTORADO("Pos-Doutorado");
 
+    @Getter
+    private String value;
+
+    Formacao(String value) {
+        this.value = value;
+    }
 }

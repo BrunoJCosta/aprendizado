@@ -1,10 +1,8 @@
 package com.aplication.teste.domain.universidade.formacao;
 
-import com.aplication.teste.domain.universidade.formacao.Formacao;
-
 import java.math.BigDecimal;
 
-public class Graduado implements Formacao {
+public class Graduado implements CalculaSalario {
 
     @Override
     public BigDecimal calcular(BigDecimal salario) {
