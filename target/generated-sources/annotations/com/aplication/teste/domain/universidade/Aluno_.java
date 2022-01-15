@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.escola;
+package com.aplication.teste.domain.universidade;
 
 import java.time.LocalDateTime;
 import javax.annotation.Generated;

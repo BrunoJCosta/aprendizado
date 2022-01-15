@@ -1,6 +1,6 @@
 package com.aplication.teste.domain.universidade;
 
-import com.aplication.teste.domain.universidade.formacao.Escolaridade;
+import com.aplication.teste.domain.universidade.formacao.Formacao;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -33,11 +33,11 @@ class Professor {
     @Setter
     private String aula;
 
-    @Column(name = "escolaridade")
+    @Column(name = "formacao")
     @Enumerated(EnumType.STRING)
     @Getter
     @Setter
-    private Escolaridade escolaridade;
+    private Formacao formacao;
 
     @Column(name = "salario")
     @Getter

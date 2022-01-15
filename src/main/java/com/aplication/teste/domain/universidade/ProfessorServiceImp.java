@@ -1,6 +1,5 @@
 package com.aplication.teste.domain.universidade;
 
-import com.aplication.teste.domain.universidade.formacao.Escolaridade;
 import com.aplication.teste.exception.AlreadyHaveException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,12 +23,11 @@ class ProfessorServiceImp implements ProfessorService {
         var professor = new Professor();
         professor.setAula(form.getAula());
         professor.setNome(form.getNome());
-        var escolaridade = form.getEscolaridade();
-        professor.setEscolaridade(escolaridade);
-        var formacao = escolaridade.getValue();
-        professor.setSalario(formacao.calcular(form.getSalario()));
+        professor.setFormacao(form.getFormacao());
+        professor.setSalario(form.getSalario());
 
         var save = repository.save(professor);
+
         return new ProfessorDTO(save);
     }
 

@@ -1,4 +1,4 @@
-package com.aplication.teste.domain.escola;
+package com.aplication.teste.domain.universidade;
 
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;

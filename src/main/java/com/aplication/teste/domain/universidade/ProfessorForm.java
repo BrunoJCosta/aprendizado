@@ -1,6 +1,6 @@
 package com.aplication.teste.domain.universidade;
 
-import com.aplication.teste.domain.universidade.formacao.Escolaridade;
+import com.aplication.teste.domain.universidade.formacao.Formacao;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -10,7 +10,7 @@ public class ProfessorForm {
 
     private String nome;
     private String aula;
-    private Escolaridade escolaridade;
+    private Formacao formacao;
     private BigDecimal salario;
 
 }
