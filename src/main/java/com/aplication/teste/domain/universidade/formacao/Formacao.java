@@ -8,7 +8,7 @@ public enum Formacao {
     POSGRADUADO("Pós-Graduado"),
     MESTRADO("Mestrado"),
     DOUTORADO("Doutorado"),
-    POSDOUTORADO("Pos-Doutorado");
+    POSDOUTORADO("Pós-Doutorado");
 
     @Getter
     private String value;
