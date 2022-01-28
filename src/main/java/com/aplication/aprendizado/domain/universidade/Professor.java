@@ -8,12 +8,12 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "professor")
+@Table(name = "professor", schema = "postgres")
 @SequenceGenerator(
         name = "professor_gen",
         sequenceName = "professor_seq",
         allocationSize = 1,
-        schema = "prostgres"
+        schema = "postgres"
 )
 class Professor {
 

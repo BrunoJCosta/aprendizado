@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/v1/Professor")
+@RequestMapping("/v1/professor")
 public class ProfessorController {
 
-    private ProfessorService service;
+    private final ProfessorService service;
 
     @Autowired
     public ProfessorController(ProfessorService service) {
@@ -23,5 +23,11 @@ public class ProfessorController {
     public ResponseEntity createProfessor(@RequestBody ProfessorForm form) throws AlreadyHaveException {
         var professor = service.createProfessor(form);
         return ResponseEntity.ok(professor);
+    }
+
+    @GetMapping("/aulas")
+    public ResponseEntity findAllAulas() {
+        var aulas = service.findAllAula();
+        return ResponseEntity.ok(aulas);
     }
 }
