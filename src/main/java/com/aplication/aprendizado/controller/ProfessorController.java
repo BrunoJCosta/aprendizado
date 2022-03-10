@@ -20,7 +20,7 @@ public class ProfessorController {
     }
 
     @PostMapping
-    public ResponseEntity createProfessor(@RequestBody ProfessorForm form) throws AlreadyHaveException {
+    public ResponseEntity createProfessor(@RequestBody ProfessorForm form) {
         var professor = service.createProfessor(form);
         return ResponseEntity.ok(professor);
     }

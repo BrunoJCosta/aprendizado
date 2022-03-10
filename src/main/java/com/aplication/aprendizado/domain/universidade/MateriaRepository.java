@@ -3,11 +3,11 @@ package com.aplication.aprendizado.domain.universidade;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
+import java.util.List;
 
 @Repository
-interface ProfessorRepository extends JpaRepository<Professor, Long> {
+interface MateriaRepository extends JpaRepository<Materia,Long> {
 
-    Optional<Professor> findByAula(String aula);
+    List<MateriaView> findByProfessor(Long id);
 
 }

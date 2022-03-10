@@ -1,6 +1,5 @@
 package com.aplication.aprendizado.domain.universidade;
 
-import com.aplication.aprendizado.exception.AlreadyHaveException;
 import com.aplication.aprendizado.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,10 +18,7 @@ class ProfessorServiceImp implements ProfessorService {
     }
 
     @Override
-    public ProfessorDTO createProfessor(ProfessorForm form) throws AlreadyHaveException {
-        var optProfessor = repository.findByAula(form.getAula());
-        if (optProfessor.isPresent())
-            throw new AlreadyHaveException("Professor");
+    public ProfessorDTO createProfessor(ProfessorForm form) {
 
         var professor = new Professor();
         professor.setAula(form.getAula());
@@ -31,7 +27,6 @@ class ProfessorServiceImp implements ProfessorService {
         professor.setSalario(form.getSalario());
 
         var save = repository.save(professor);
-
         return new ProfessorDTO(save);
     }
 
