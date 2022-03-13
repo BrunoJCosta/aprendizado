@@ -1,7 +1,10 @@
 package com.aplication.aprendizado.domain.universidade;
 
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
+@Service
 class MateriaServiceImp implements MateriaService{
 
     private MateriaRepository repository;
