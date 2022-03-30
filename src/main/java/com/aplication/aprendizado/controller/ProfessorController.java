@@ -2,7 +2,7 @@ package com.aplication.aprendizado.controller;
 
 import com.aplication.aprendizado.domain.universidade.ProfessorForm;
 import com.aplication.aprendizado.domain.universidade.ProfessorService;
-import com.aplication.aprendizado.exception.AlreadyHaveException;
+import com.aplication.aprendizado.exception.AlreadyExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +20,7 @@ public class ProfessorController {
     }
 
     @PostMapping
-    public ResponseEntity createProfessor(@RequestBody ProfessorForm form) {
+    public ResponseEntity createProfessor(@RequestBody ProfessorForm form) throws AlreadyExistsException {
         var professor = service.createProfessor(form);
         return ResponseEntity.ok(professor);
     }

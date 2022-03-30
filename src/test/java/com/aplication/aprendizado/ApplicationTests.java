@@ -1,4 +1,4 @@
-package com.spring.aplication.teste.java11spring252;
+package com.aplication.aprendizado;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
