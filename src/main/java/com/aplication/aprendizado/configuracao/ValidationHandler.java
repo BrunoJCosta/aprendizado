@@ -1,6 +1,6 @@
 package com.aplication.aprendizado.configuracao;
 
-import com.aplication.aprendizado.exception.AlreadyHaveException;
+import com.aplication.aprendizado.exception.AlreadyExistsException;
 import org.hibernate.exception.SQLGrammarException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -29,8 +29,8 @@ public class ValidationHandler extends ResponseEntityExceptionHandler {
         return ResponseEntity.badRequest().body(exception.getLocalizedMessage());
     }
 
-    @ExceptionHandler(AlreadyHaveException.class)
-    public ResponseEntity alreadyExist(AlreadyHaveException exception) {
+    @ExceptionHandler(AlreadyExistsException.class)
+    public ResponseEntity alreadyExist(AlreadyExistsException exception) {
         return ResponseEntity.status(HttpStatus.CONFLICT).body(exception.getMessage());
     }
 }
